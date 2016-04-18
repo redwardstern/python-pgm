@@ -1,0 +1,49 @@
+# This file exists so you can easily regenerate your project.
+#
+# `cookiepatcher` is a convenient shim around `cookiecutter`
+# for regenerating projects (it will generate a .cookiecutterrc 
+# automatically for any template). To use it:
+#
+#    pip install cookiepatcher
+#    cookiepatcher gh:ionelmc/cookiecutter-pylibrary project-path
+#
+# See:
+#    https://pypi.python.org/pypi/cookiecutter
+#
+# Alternatively, you can run:
+#
+#    cookiecutter --overwrite-if-exists --config-file=project-path/.cookiecutterrc gh:ionelmc/cookiecutter-pylibrary
+
+default_context:
+
+    appveyor:                  'yes'
+    c_extension_cython:        'no'
+    c_extension_optional:      'no'
+    c_extension_support:       'no'
+    codacy:                    'yes'
+    codeclimate:               'yes'
+    codecov:                   'no'
+    command_line_interface:    'plain'
+    command_line_interface_bin_name: 'pgm'
+    coveralls:                 'yes'
+    distribution_name:         'pgm'
+    email:                     'ruth@sternshus.com'
+    full_name:                 'R. Edward Stern'
+    github_username:           'redwardstern'
+    landscape:                 'yes'
+    package_name:              'pgm'
+    project_name:              'pgm'
+    project_short_description: 'foray into structured prediction and pgm'
+    release_date:              'today'
+    repo_name:                 'python-pgm'
+    requiresio:                'yes'
+    scrutinizer:               'no'
+    sphinx_doctest:            'yes'
+    sphinx_theme:              'sphinx-py3doc-enhanced-theme'
+    test_matrix_configurator:  'no'
+    test_matrix_separate_coverage: 'no'
+    test_runner:               'pytest'
+    travis:                    'yes'
+    version:                   '0.1.0'
+    website:                   'sternshus.com'
+    year:                      '2015-2016'

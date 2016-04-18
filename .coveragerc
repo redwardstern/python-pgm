@@ -1,0 +1,14 @@
+[paths]
+source =
+   src/pgm
+   */site-packages/pgm
+
+[run]
+branch = True
+source = pgm
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
